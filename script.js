@@ -18,3 +18,14 @@ hamburger.addEventListener('click', function () {
     times.classList.toggle("active")
 })
 
+
+const header = document.querySelector("header")
+
+right.addEventListener('click', function () {
+
+    header.classList.toggle("nextbgc")
+
+
+
+})
+
